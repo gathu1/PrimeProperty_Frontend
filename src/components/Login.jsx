@@ -81,7 +81,7 @@ const Signin = () => {
                       Log in
                     </button>
                     <p className="text-sm font-light text-gray-500 dark:text-gray-400">
-                      Don't have an account? <a href="/" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Create an account here</a>
+                      Don't have an account? <a href="/Auth" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Create an account here</a>
                     </p>
                     <p className="text-sm font-light text-gray-500 dark:text-gray-400">
                       Reset password? <a href="reset" className="font-medium text-primary-600 hover:underline dark:text-primary-500">Reset password here</a>
