@@ -128,7 +128,7 @@ const toggleSidebarSize = () => {
           <div className="mb-8 ">
             <section className="bg-white bg-opacity-80 shadow-md p-8 rounded-lg">
               <img 
-                src="src/assets/photo-1534398079543-7ae6d016b86a.avif" 
+                src="/static/assets/photo-1534398079543-7ae6d016b86a.avif" 
                 alt="Maintenance" 
                 className="mb-4 rounded-lg w-full h-auto"
               />
@@ -162,7 +162,7 @@ const toggleSidebarSize = () => {
           <div className="mb-8 ml-20">
             <section className="bg-white bg-opacity-80 shadow-md p-8 rounded-lg">
               <img 
-                src="src/assets/photo-1442504028989-ab58b5f29a4a.avif" 
+                src="/static/assets/photo-1442504028989-ab58b5f29a4a.avif" 
                 alt="Community" 
                 className="mb-4 rounded-lg w-full h-auto"
               />
@@ -184,7 +184,7 @@ const toggleSidebarSize = () => {
           <div className="mb-8">
             <section className="bg-white bg-opacity-80 shadow-md p-8 rounded-lg">
               <img 
-                src="src/assets/photo-1561715608-5659baeccfb4.avif" 
+                src="/static/assets/photo-1561715608-5659baeccfb4.avif" 
                 alt="Emergency" 
                 className="mb-4 rounded-lg w-full h-auto"
               />

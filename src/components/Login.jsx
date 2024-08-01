@@ -40,7 +40,7 @@ const Signin = () => {
     <>
       <div className="flex flex-col md:flex-row">
         <div className="w-full md:w-1/2 mb-8 md:mb-0">
-          <img src="src/assets/photo-1586023492125-27b2c045efd7.avif" alt="" className="w-full h-64 md:h-screen object-cover" />
+          <img src="/static/assets/photo-1586023492125-27b2c045efd7.avif" alt="" className="w-full h-64 md:h-screen object-cover" />
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center">
           <section className="bg-gray-50 dark:bg-gray-900 w-full h-screen px-4 sm:px-6 lg:px-8 pt-40">

@@ -20,7 +20,7 @@ const Single = () => {
       {/* Image Section */}
       <div className='w-full md:w-1/2 flex justify-center mt-5'>
         <img 
-          src="src\assets\photo-1567684014761-b65e2e59b9eb.avif" 
+          src="\static\assets\photo-1567684014761-b65e2e59b9eb.avif" 
           alt="Student Housing Management" 
           className='w-full max-w-xs md:max-w-sm lg:max-w-md mb-10 rounded-lg' 
         />

@@ -41,7 +41,7 @@ const Signin = () => {
     <>
       <div className='flex'>
         <div className='w-1/2 bg-white '>
-          <img src="src\assets\photo-1492371451031-f0830e91b3d9.avif" alt="" className='h-screen' />
+          <img src="\static\assets\photo-1492371451031-f0830e91b3d9.avif" alt="" className='h-screen' />
         </div>
         <div className='w-1/2'>
           <section className="bg-gray-50 dark:bg-gray-900">
