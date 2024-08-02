@@ -224,8 +224,8 @@ const toggleSidebarSize = () => {
                            />
                         </div>
                         <div className="flex justify-end space-x-4">
-                           <button type="submit" className="px-4 py-2 bg-blue-700 text-white rounded hover:bg-green-600">Save</button>
-                           <button type="button" onClick={resetForm} className="px-4 py-2 bg-red-700 text-white rounded hover:bg-gray-600">Cancel</button>
+                           <button type="submit" className="px-4 py-2 bg-blue-700 text-white rounded">Save</button>
+                           <button type="button" onClick={resetForm} className="px-4 py-2 bg-red-700 text-white rounded">Cancel</button>
                         </div>
                      </form>
                   
