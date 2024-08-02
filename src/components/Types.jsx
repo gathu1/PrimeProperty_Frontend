@@ -177,7 +177,7 @@ const Types = () => {
         <form onSubmit={editingType ? () => handleUpdate(editingType.id) : handleSubmit} className='ml-40 mt-40 mr-40'>
           <div className="grid gap-4 mb-4 md:grid-cols-2">
             <div>
-              <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Name</label>
+              <label htmlFor="name" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Type</label>
               <input
                 type="text"
                 id="name"
@@ -188,7 +188,7 @@ const Types = () => {
               />
             </div>
             <div>
-              <label htmlFor="houseRange" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">House Range</label>
+              <label htmlFor="houseRange" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">House No</label>
               <input
                 type="text"
                 id="houseRange"
@@ -199,7 +199,7 @@ const Types = () => {
               />
             </div>
             <div>
-              <label htmlFor="totalAmount" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Total Amount</label>
+              <label htmlFor="totalAmount" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Total Number</label>
               <input
                 type="number"
                 id="totalAmount"
