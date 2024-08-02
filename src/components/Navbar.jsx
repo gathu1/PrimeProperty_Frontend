@@ -138,7 +138,7 @@ const Navbar = () => {
                     <div className="md:hidden bg-indigo-500 w-full">
                         <ul className="flex flex-col items-center space-y-4 py-4">
                             <li>
-                                <Link to="/Home" className='text-white transition duration-300 ease-in-out font-bold' onClick={toggleMenu}>Home</Link>
+                                <Link to="/" className='text-white transition duration-300 ease-in-out font-bold' onClick={toggleMenu}>Home</Link>
                             </li>
                             <li className="relative">
                                 <button

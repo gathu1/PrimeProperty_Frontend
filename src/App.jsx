@@ -35,7 +35,6 @@ import Vacant  from "./components/Vacant";
 
 const Layout = ({ children }) => {
   const location = useLocation();
-  const [houseTypes, setHouseTypes] = useState([]);
 
   const hideNavbarRoutes = [
     "/auth",

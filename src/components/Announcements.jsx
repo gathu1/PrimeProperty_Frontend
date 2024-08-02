@@ -123,7 +123,7 @@ const toggleSidebarSize = () => {
         </div>
         <div className="fixed top-0 left-0 right-0 bg-blue-800 text-white pt-5 pb-5 flex justify-center z-50">
     <h1 className="text-3xl font-bold">ANNOUNCEMENTS</h1></div>
-    <div className={`flex-grow p-4 mr-60 transition-all duration-300 ease-in-out ${isSidebarReduced ? 'ml-20' : 'ml-64'}`}> 
+    <div className={`flex-grow p-4 mr-20 transition-all duration-300 ease-in-out ${isSidebarReduced ? 'ml-20' : 'ml-64'}`}> 
       <div className='grid grid-cols-1 md:grid-cols-2 gap-8 mt-40'>
           <div className="mb-8 ">
             <section className="bg-white bg-opacity-80 shadow-md p-8 rounded-lg">
@@ -159,7 +159,7 @@ const toggleSidebarSize = () => {
             </section>
           </div>
 
-          <div className="mb-8 ml-20">
+          <div className="mb-8 ml-10">
             <section className="bg-white bg-opacity-80 shadow-md p-8 rounded-lg">
               <img 
                 src="/static/assets/photo-1442504028989-ab58b5f29a4a.avif" 

@@ -155,15 +155,15 @@ const Enquire = () => {
                 <tbody>
                   {tenants.map((tenant) => (
                     <tr key={tenant.id} className="border-b">
-                      <td className="pl-20">{tenant.category}</td>
-                      <td className="pl-20">{tenant.location}</td>
-                      <td className="pl-20 hover:text-blue-700">
+                      <td className="pl-10">{tenant.category}</td>
+                      <td className="pl-10">{tenant.location}</td>
+                      <td className="pl-10 hover:text-blue-700">
                        {tenant.price}
                       </td>
-                      <td className="pl-20 hover:text-blue-700">
+                      <td className="pl-10 hover:text-blue-700">
                        {tenant.description}
                       </td>
-                      <td className="pl-20">{tenant.remaining}</td>
+                      <td className="pl-10">{tenant.remaining}</td>
                  
                     </tr>
                   ))}

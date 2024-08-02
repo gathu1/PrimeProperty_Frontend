@@ -232,7 +232,7 @@ const toggleSidebarSize = () => {
                         <div>
                             <label htmlFor="description" className="block text-sm font-medium text-gray-700">Description</label>
                             <input
-                                type="text"
+                                type="textarea"
                                 id="description"
                                 name="description"
                                 value={description}
